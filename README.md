@@ -33,7 +33,8 @@ MT-Bench-101 is specifically designed to evaluate the finegrained abilities of L
 ## Installation
 
 We integrated our MT-Bench-101 benchmark into [OpenCompass](https://github.com/open-compass/opencompass) through this [PR](https://github.com/open-compass/opencompass/pull/1215/files). OpenCompass is a comprehensive platform for large model evaluation, which provides a unified interface for evaluating various tasks and is easy to use.
-[![evaluation](./doc/imgs/compass_support.svg)]({https://hub.opencompass.org.cn/dataset-detail/MT-Bench-101})
+
+<!-- [![evaluation](./doc/imgs/compass_support.svg)]({https://hub.opencompass.org.cn/dataset-detail/MT-Bench-101}) -->
 
 #### Create virtual env
 
