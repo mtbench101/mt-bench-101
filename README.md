@@ -32,25 +32,34 @@ MT-Bench-101 is specifically designed to evaluate the finegrained abilities of L
 
 ## Installation
 
-We integrated our MT-Bench-101 benchmark into [OpenCompass](https://github.com/open-compass/opencompass), a comprehensive platform for large model evaluation.
+We integrated our MT-Bench-101 benchmark into [OpenCompass](https://github.com/open-compass/opencompass) through this [PR](https://github.com/open-compass/opencompass/pull/1215/files). OpenCompass is a comprehensive platform for large model evaluation, which provides a unified interface for evaluating various tasks and is easy to use.
+[![evaluation](./doc/imgs/compass_support.svg)]({https://hub.opencompass.org.cn/dataset-detail/MT-Bench-101})
 
 #### Create virtual env
 
 ```bash
 conda create --name opencompass python=3.10 pytorch torchvision pytorch-cuda -c nvidia -c pytorch -y
 conda activate opencompass
-git clone https://github.com/mtbench101/mt-bench-101.git
-cd mt-bench-101
+git clone https://github.com/open-compass/opencompass opencompass
+cd opencompass
 pip install -e .
 ```
 
 #### Data Preparation
 
-Our data has been stored in the following folder.
+Our data has been stored in the following folder under this repo.
 
 ```bash
-# Dataset folder
+# Dataset folder under this repo
 data/subjective/mtbench101.jsonl
+```
+
+You should copy the data file from this repo into the same path of OpenCompass.
+```bash
+# Download dataset from this repo and copy to OpenCompass folder
+# After 'cd opencompass'
+mkdir data/subjective/
+cp -rf $PATH_THIS_REPO/data/subjective/mtbench101.jsonl data/subjective/
 ```
 
 #### Evaluation
