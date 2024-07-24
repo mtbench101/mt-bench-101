@@ -22,7 +22,7 @@
 
 ## 💥What's New
 
-- **\[2024.05.28\]** Code and dataset are now available. 🎉🎉🎉
+- **\[2024.05.28\]** Code and dataset are now available (Code has been integrated into [OpenCompass](https://github.com/open-compass/opencompass), see [Installation](https://github.com/mtbench101/mt-bench-101/edit/main/README.md#installation) for details). 🎉🎉🎉
 - **\[2024.05.15\]** MT-Bench-101 has been accepted by ACL 2024 main conference. 🎉🎉🎉
 - **\[2024.02.22\]** Our paper is now accessible at https://arxiv.org/abs/2402.14762. 🎉🎉🎉
 
