@@ -45,7 +45,7 @@ Create virtual env for OpenCompass, see OpenCompass website if you have any ques
 ```bash
 conda create --name opencompass python=3.10 pytorch torchvision pytorch-cuda -c nvidia -c pytorch -y
 conda activate opencompass
-git clone https://github.com/sefira/opencompass opencompass
+git clone https://github.com/xingyuanbu/opencompass opencompass
 cd opencompass
 pip install -e .
 ```
